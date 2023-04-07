@@ -1,0 +1,377 @@
+.about-achivements {
+    margin-top: 3rem;
+}
+
+/*HEADER*/
+.header{
+    height: calc(100vh - 5rem);
+    position: relative;
+    top: 5rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: var(--color-bg1);
+    margin-bottom: 6rem;
+      
+  }
+  
+  .description-header-container{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 100%;
+  }
+  
+  .description-header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .description-header-left h3{
+    font-size: 50px;
+  }
+  .description-header-left h4 {
+    margin-bottom: 0.6rem ;
+  }
+  
+  .description-header-left p {
+    margin: 1.2rem 0 2rem;
+    
+  }
+  
+  .description-header-right {
+    position: relative;
+    height: 100%;
+  }
+  
+  
+  .header-right-bg {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    background: var(--color-warning);
+    position: absolute;
+    right: -20rem;
+    bottom: -22rem;
+  }
+  
+  
+  .header-image {
+    width: 220%;
+    position: absolute;
+    bottom: -10rem;
+    right: -20rem;
+    z-index: 1;
+  }
+  
+  /************************ EQUIPE */
+
+  .teamimg {
+    width: 200px;
+  }
+  
+  .team {
+    background: #fff;
+    max-width: 1200px;
+    margin:  auto;
+    display: flex; /* exibe os elementos como uma fila */
+    flex-wrap: wrap; /* permite que os elementos sejam divididos em várias linhas */
+    justify-content: center; /* centraliza a fila horizontalmente */
+    align-items: center; /* centraliza a fila verticalmente */
+    color: #000;
+  }
+  
+  .team h2 {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teamm {
+    max-width: 50%; /* largura máxima de cada coluna */
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: fit-content;
+    margin: 0 50px; /* adiciona margem horizontal para separar as colunas */
+  }
+  
+  
+  .teamm-small {
+    max-width: none;
+  }
+  
+  .teamm h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+  }
+  
+  .teamm-icon {
+    align-self: flex-start;
+    font-size: 30px;
+  }
+  
+  .teamm p {
+    margin-top: 0.8rem;
+    display: none;
+    text-align: center;
+  }
+  
+  .equipeimg {
+    border-top-left-radius: 0;
+    filter: grayscale(100%); /* filtro de escala de cinza /
+    transition: filter 0.5s; / transição suave */
+    }
+    
+    .equipeimg:hover {
+    filter: grayscale(0%); /* remove o filtro de escala de cinza quando o mouse estiver sobre a imagem */
+    }
+  
+  
+  .nome {
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .descrição {
+    font-size: 12px;
+    color: #7a7a7a;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .social-links img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+  }
+  
+  .social-linksmenu img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .social-links img:hover {
+    animation: swing 0.3s ease-in-out alternate;
+  }
+  
+  @keyframes swing {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(-10deg);
+    }
+  }
+  
+  .social-linksmenu img {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  @media (max-width: 767px) {
+    /* estilos para dispositivos móveis */
+    .team-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nome {
+        font-size: 20px;
+      }
+  
+    .descrição {
+        font-size: 15px;
+        color: rgb(105, 105, 105)646;
+      }
+  
+    .teamm {
+      width: 100%;
+      margin: 0 0 40px 0; /* adiciona margem inferior para separar cada teamm na coluna */
+    }
+  }
+
+
+
+/*KEYFRAMES*/
+
+@keyframes bar {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+  
+
+/* MEDIA QUERIES TABLET*/
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .header{
+        height: 100%;
+        padding: 14rem 0 0;
+    }
+
+    .description-header-container {
+        align-items: flex-end;
+        height: 100%;
+    }
+
+    .description-header-left {
+        margin-bottom: 6rem;
+    }
+
+    .description-header-right {
+        align-items: flex-end;
+        height: 100%;
+    }
+
+    .header-right-bg {
+        width: 25rem;
+        height: 25rem;
+        right: 50%;
+        bottom: 50%;
+        transform: translate(50%, 50%);
+    }
+
+    .header-image {
+        bottom: -1rem;
+        right: -14rem;
+        width: 200%;
+    }
+
+    /*PRICES*/
+
+    .services-box-container {
+        flex-wrap: wrap;
+    }
+
+    .services{
+        height: auto;
+    }
+
+    .services-heading {
+        margin: 15px;
+    }
+
+    .services-box {
+        flex-grow: 1;
+    }
+}
+
+
+/*MEDIA QUERIES PHONE*/
+
+@media screen and ( max-width: 600px){
+
+    .header {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .btn-primary{
+        margin-top: 10px;
+    }
+
+    .description-header-container {
+        grid-template-columns: 1fr;
+        margin-top: 4.4rem;
+        gap: 0;
+    }
+
+    .description-header-left {
+        text-align: center;
+       
+    }
+
+    .description-header-left p {
+        margin: 0.5rem 0 1.2rem;
+        text-align: justify;
+    }
+    .description-header-left h3 {
+        font-size: 2.2rem;
+    }
+
+    .header-image {
+        width: 75%;
+        left: 5rem;
+        
+    }
+
+    .header-right-bg {
+        bottom: -10%;
+    }
+
+    .achivements-cards {
+        grid-template-columns: 1fr 1fr;
+        gap:  0.7rem;
+    }
+
+    .achivements-card p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and ( max-width: 450px){
+
+    .header {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .description-header-container {
+        grid-template-columns: 1fr;
+        margin-top: 4.4rem;
+        gap: 0;
+    }
+
+    .description-header-left {
+        text-align: center;
+       
+    }
+
+    .description-header-left p {
+        margin: 0.5rem 0 1.2rem;
+        text-align: justify;
+        font-size: .975rem;
+    }
+    .description-header-left h3 {
+        font-size: 1.8rem;
+    }
+
+    .header-image {
+        width: 75%;
+        left: 4rem;
+        bottom: 2rem;
+        
+    }
+
+    .header-right-bg {
+        bottom: -60%;
+    }
+
+   
+}
+
