@@ -1,4 +1,3 @@
-// CHANGE NAVBAR STYLES ON SCROLL 
 
 window.addEventListener('scroll', () => {
     document.querySelector('nav').classList.toggle
@@ -6,7 +5,6 @@ window.addEventListener('scroll', () => {
 })
 
 
-//CREATE A COUNTER UNTIL EVENT
 const countdown = () => {
 
   const finalDate = new Date("Oct 25, 2022 00:00:00").getTime()
@@ -38,15 +36,13 @@ const countdown = () => {
 setInterval(countdown, 1000)
 
 
-// SHOW/HIDE FAQs
-
 const faqs = document.querySelectorAll('.faq');
 
 faqs.forEach(faq => {
     faq.addEventListener('click', () => {
         faq.classList.toggle('open');
 
-        //change icon
+        
 
         const icon = faq.querySelector('faq-icon i');
         if(icon.className === 'uil uil-plus') 
@@ -60,7 +56,6 @@ faqs.forEach(faq => {
     })
 })
 
-//SHOW NAVBAR MENU
 
 const menu = document.querySelector(".nav-menu");
 const menuBtn = document.querySelector(".open-menu-btn");
@@ -79,7 +74,6 @@ menuBtn.style.display = "none";
 document.body.style.overflow = "hidden";
 })
 
-//CLOSE MENU
 const closeNav = () => {
 menu.style.display = "none";
 closeBtn.style.display = "none";
