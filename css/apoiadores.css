@@ -1,8 +1,4 @@
-.about-achivements {
-    margin-top: 3rem;
-}
 
-/*HEADER*/
 .header{
     height: calc(100vh - 5rem);
     position: relative;
@@ -225,8 +221,6 @@
 
 /* MEDIA QUERIES TABLET*/
 
-
-
 @media screen and (max-width: 1024px) {
 
     .header{
@@ -261,25 +255,6 @@
         right: -14rem;
         width: 200%;
     }
-
-    /*PRICES*/
-
-    .services-box-container {
-        flex-wrap: wrap;
-    }
-
-    .services{
-        height: auto;
-    }
-
-    .services-heading {
-        margin: 15px;
-    }
-
-    .services-box {
-        flex-grow: 1;
-    }
-}
 
 
 /*MEDIA QUERIES PHONE*/
@@ -371,6 +346,5 @@
     .header-right-bg {
         bottom: -60%;
     }
-
    
 }
