@@ -64,8 +64,8 @@
     z-index: 1;
   }
   
-/*QUESTION BEGIN*/
-/*QUESTION BEGIN*/
+
+/*GRADE DE CONTEUDO*/
 .revs {
     background-color: #fff;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
@@ -190,7 +190,7 @@
 }
   
 
-/* MEDIA QUERIES TABLET*/
+/* TABLET*/
 
 
 
@@ -229,27 +229,10 @@
         width: 200%;
     }
 
-    /*PRICES*/
-
-    .services-box-container {
-        flex-wrap: wrap;
-    }
-
-    .services{
-        height: auto;
-    }
-
-    .services-heading {
-        margin: 15px;
-    }
-
-    .services-box {
-        flex-grow: 1;
-    }
 }
 
 
-/*MEDIA QUERIES PHONE*/
+/*CELULAR*/
 
 @media screen and ( max-width: 600px){
 
