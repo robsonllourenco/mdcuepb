@@ -5,7 +5,8 @@
   place-items: center;
   overflow: hidden;
   background: #fff;
-  margin-bottom: 6rem;
+  margin-bottom: -7rem;
+
 
 }
 
@@ -24,6 +25,7 @@
   margin: 1.2rem 0 2rem;
   color: #000;
   text-align: justify;
+  
 
 }
 
@@ -41,6 +43,3 @@
   width: 50%;
 
 }
-
-
-
