@@ -1,4 +1,4 @@
-
+/* Estilos do cabeçalho */
 .header{
     height: calc(100vh - 5rem);
     position: relative;
@@ -60,7 +60,7 @@
     z-index: 1;
   }
   
-  /************************ EQUIPE */
+  /* EQUIPE */
 
   .teamimg {
     width: 200px;
