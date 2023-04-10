@@ -1,22 +1,22 @@
-.header{
+/* Estilos do cabeçalho */
+.header {
   position: relative;
   top: 3rem;
+  margin-bottom: -7rem;
   display: grid;
   place-items: center;
   overflow: hidden;
   background: #fff;
-  margin-bottom: -7rem;
-
-
 }
 
+/* Estilo da seção de descrição */
 .descricao-sobre {
   display: flex;
   align-items: center;
   height: 100%;
 }
 
-.descricao-sobre h2{
+.descricao-sobre h2 {
   font-size: 30px;
   color: #000;
 }
@@ -25,15 +25,9 @@
   margin: 1.2rem 0 2rem;
   color: #000;
   text-align: justify;
-  
-
 }
 
-.description-header-right {
-  position: relative;
-  height: 100%;
-}
-
+/* Estilo da imagem no cabeçalho */
 .header-image {
   display: flex;
   justify-content: center;
@@ -41,5 +35,10 @@
 
 .header-image img {
   width: 50%;
+}
 
+/* Estilos da seção de descrição no lado direito do cabeçalho */
+.description-header-right {
+  position: relative;
+  height: 100%;
 }
